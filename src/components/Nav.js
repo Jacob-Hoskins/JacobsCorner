@@ -28,6 +28,7 @@ function Nav() {
  const NavMenu = styled.div`
      cursor: pointer;
      padding-bottom: 10px;
+     text-align: center;
 
      a{
          margin: 25px;
