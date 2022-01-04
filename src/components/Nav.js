@@ -19,20 +19,20 @@ function Nav() {
  export default Nav
 
  const NavBar = styled.div`
-//     margin: 25px;
-//     border-bottom: 2px solid black;
+     margin: 25px;
+     border-bottom: 2px solid black;
     
 
  `
 
  const NavMenu = styled.div`
-//     cursor: pointer;
-//     padding-bottom: 10px;
+     cursor: pointer;
+     padding-bottom: 10px;
 
-//     a{
-//         margin: 25px;
-//         text-decoration: none;
+     a{
+         margin: 25px;
+         text-decoration: none;
 
-//     }
+     }
 
  `  
