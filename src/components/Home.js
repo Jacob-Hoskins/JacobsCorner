@@ -7,7 +7,7 @@ function Home() {
     return (
         <Container>
             <VideoSlider />
-            <Articles />
+            <Articles title="Test title" date="1/4/22"/>
         </Container>
     )
 }
