@@ -45,7 +45,7 @@ function Nav() {
 
      @media (max-width: 500px){
          span{
-             font-size: 7px;
+             font-size: 9px;
              text-align: center;
              justify-content: center;
          }
