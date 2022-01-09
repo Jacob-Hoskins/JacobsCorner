@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
-import VideoSlider from './VideoSlider'
-import Articles from './Articles'
-import Nav from './Nav'
+import VideoSlider from '../components/VideoSlider'
+import Articles from '../Pages/Articles'
+import Nav from '../components/Nav'
 
 function Home() {
     return (

@@ -2,11 +2,11 @@ import React from 'react';
 import styled from 'styled-components';
 import { BrowserRouter as Router, Routes, Route, Navigate, Link} from 'react-router-dom';
 import './App.css';
-import Home from './components/Home';
-import Videos from './components/Videos';
-import Articles from './components/Articles';
-import Projects from './components/Projects';
-import Social from './components/Social';
+import Home from './Pages/Home';
+import Videos from './Pages/Videos';
+import Articles from './Pages/Articles';
+import Projects from './Pages/Projects';
+import Social from './Pages/Social';
 
 
 function App() {
