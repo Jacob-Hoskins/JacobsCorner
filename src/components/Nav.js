@@ -7,6 +7,7 @@ function Nav() {
     return (
         <NavBar>
             <NavMenu>
+                 <Link to='/'><span>HOME</span></Link>
                  <Link to="/videos"><span>VIDEOS</span></Link>
                  <Link to='/articles'><span>ARTICLES</span></Link>
                  <Link to='/projects'><span>PROJECTS</span></Link>
@@ -20,7 +21,8 @@ function Nav() {
  export default Nav
 
  const NavBar = styled.div`
-     margin: 25px;
+     align-items: center;
+     margin: 0;
      border-bottom: 2px solid black;
      
      
@@ -31,6 +33,8 @@ function Nav() {
      cursor: pointer;
      padding-bottom: 10px;
      text-align: center;
+     text-decoration: none;
+     
      
      
 
@@ -41,12 +45,12 @@ function Nav() {
 
      span{
          font-size: 20px;
-         
+         color: white;
      }
 
      @media (max-width: 500px){
          span{
-             font-size: 7px;
+             font-size: 6px;
              text-align: center;
              justify-content: center;
          }

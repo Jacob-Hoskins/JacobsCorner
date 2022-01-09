@@ -30,9 +30,10 @@ function VideoSlider() {
 export default VideoSlider
 
 const Carousel = styled(Slider)`
-    margin: 20px;
+    margin: 0;
     padding: 20px;
     diplay: flex;
+    overflow: hidden;
     
     
     .slick-list{

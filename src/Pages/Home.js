@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import VideoSlider from '../components/VideoSlider'
-import Articles from '../Pages/Articles'
+import HomeArticles from '../components/HomeArticles'
 import Nav from '../components/Nav'
 
 function Home() {
@@ -9,7 +9,7 @@ function Home() {
         <Container>
             <Nav />
             <VideoSlider />
-            <Articles title="Test title" date="1/4/22"/>
+            <HomeArticles />
             
         </Container>
     )
@@ -18,5 +18,8 @@ function Home() {
 export default Home
 
 const Container = styled.main`
-
+    margin: auto;
+    background: black;
+    color: white;
+    min-height: 100vh;
 `

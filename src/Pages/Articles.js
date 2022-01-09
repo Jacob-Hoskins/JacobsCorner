@@ -1,14 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
+import Nav from '../components/Nav'
+import Content from '../components/Content'
 
-function Articles(props) {
+
+function Articles() {
     return (
         <Container>
-            <ArticleContainer>
-                <h1>{props.title}</h1>
-                <h4>{props.date}</h4>
-                <h3>description</h3>
-            </ArticleContainer>
+            <Nav />
+            <Content />
         </Container>
     )
 }
@@ -16,15 +16,13 @@ function Articles(props) {
 export default Articles
 
 const Container = styled.div`
-    display: flex;
-    
-    border: solid black 2px;
-    
-    
-`
-
-const ArticleContainer = styled.div`
+    min-height: 100vh;
+    align-items: center;
     border: solid black 2px;
     margin: auto;
+    background: black;
+    color: white;
+    
+    
     
 `

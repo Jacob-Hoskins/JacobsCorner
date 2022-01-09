@@ -1,11 +1,19 @@
 import React from 'react'
+import styled from 'styled-components'
+import Nav from '../components/Nav'
 
 function Social() {
     return (
-        <div>
-            Hello world
-        </div>
+        <Container>
+            <Nav />
+        </Container>
     )
 }
 
 export default Social
+
+const Container = styled.div`
+    min-height: 100vh;
+    background: black;
+    color: white;
+`
