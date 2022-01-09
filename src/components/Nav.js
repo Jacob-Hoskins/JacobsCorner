@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
 
@@ -6,10 +7,10 @@ function Nav() {
     return (
         <NavBar>
             <NavMenu>
-                 <a href="#"><span>VIDEOS</span></a>
-                 <a href="#"><span>ARTICLES</span></a>
-                 <a href="#"><span>PROJECTS</span></a>
-                 <a href="#"><span>SOCIAL</span></a>
+                 <Link to="/videos"><span>VIDEOS</span></Link>
+                 <Link to='/articles'><span>ARTICLES</span></Link>
+                 <Link to='/projects'><span>PROJECTS</span></Link>
+                 <Link to='/social'><span>SOCIAL</span></Link>
              </NavMenu>
 
          </NavBar>
@@ -52,3 +53,4 @@ function Nav() {
      }
 
  `  
+
