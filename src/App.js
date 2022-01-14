@@ -7,6 +7,8 @@ import Videos from './Pages/Videos';
 import Articles from './Pages/Articles';
 import Projects from './Pages/Projects';
 import Social from './Pages/Social';
+import PythonBasics from './Lessons/PythonBasics';
+import PythonFunc from './Lessons/PythonFunc';
 
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
         <Route path='/articles' element={<Articles />} />
         <Route path='/projects' element={<Projects />} />
         <Route path='/social' element={<Social />} />
+        <Route path='/pythonBasics' element={<PythonBasics />} />
+        <Route path ='/functions' element={<PythonFunc />} />
       </Routes>
     </Router>
     // <Container>

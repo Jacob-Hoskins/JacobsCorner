@@ -8,7 +8,12 @@ function Articles() {
     return (
         <Container>
             <Nav />
-            <Content />
+            <Content 
+                title='Python Basics'
+                date='1/13/22'
+                description='test'
+            />
+            
         </Container>
     )
 }

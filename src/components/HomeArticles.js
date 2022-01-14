@@ -8,9 +8,12 @@ function HomeArticles() {
     return (
         <Container>
             <h2>Display Articles and Videos</h2>
-            <Content />
-            <Content />
-            <Content />
+            <Content 
+                title='Python Basics'
+                date='1/13/22'
+                description='test'
+            />
+            
         </Container>
     )
 }
