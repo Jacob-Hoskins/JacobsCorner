@@ -54,15 +54,23 @@ const Container = styled.div`
 
 const Main = styled.main`
     position: relative;
+    width: 75vw;
     top: -95vh;
     align-self: center;
-    margin: 0;
+    margin: auto;
     text-align: center;
     color: white;
+
+    @media (max-width: 800px){
+        margin-top: 50vh;
+    }
 `
 
 const Grabber = styled.div`
-
+    position: relative;
+    margin: auto;
+    content: 0;
+    width: 75vw;
 `
 
 const Lesson = styled.div`
@@ -78,6 +86,7 @@ const Lesson = styled.div`
     @media (max-width: 500px){
         width: 80%;
     }
+
 `
 
 const ExampleCode = styled.div`

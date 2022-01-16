@@ -59,6 +59,10 @@ const Main = styled.main`
     margin: 0;
     text-align: center;
     color: white;
+
+    @media (max-width: 800px){
+        margin-top: 50vh;
+    }
 `
 
 const Grabber = styled.div`

@@ -73,18 +73,30 @@ const Container = styled.div`
 
 `
 const Main = styled.main`
+    width: 75vw;
     position: relative;
     top: -95vh;
     align-self: center;
-    margin: 0;
+    margin: auto;
     text-align: center;
+
+    @media (max-width: 800px){
+        margin-top: 50vh;
+    }
+
 `
 
 const Grabber = styled.div`
+    position: relative;
+    margin: auto;
+    content: 0;
+    width: 75vw;
    
 `
 
 const Lesson = styled.div`
+    position: absolute;
+    display: block;
     font-size: 18px;
     width: 75vw;
     color: white;
@@ -93,6 +105,8 @@ const Lesson = styled.div`
     padding: 5px;
     background-color: rgb(17, 34, 64);
     border-radius: 25px;
+    content: 75vw;
+    
 `
 
 const ExampleCode = styled.div`
@@ -107,6 +121,9 @@ const ExampleCode = styled.div`
     justify-content: center;
 `
 const Next = styled.div`
+    position: absolute;
+    top: 95vh;
+    left: 35vw;
     cursor: pointer;
     border: solid white 2px;
     padding: 10px 30px;

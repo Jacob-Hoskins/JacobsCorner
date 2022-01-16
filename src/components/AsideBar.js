@@ -26,18 +26,24 @@ const Container = styled.aside`
     display: felx;
     width: 5%;
     margin: 0;
+    margin-right: 10px;
 
     a{
+        cursor: pointer;
         text-decoration: none;
         color: white;
     }
 `
 
 const Nav = styled.div`
-    margin: 0;
     padding: 10px;
+    margin: 0;
+    position: absolute;
+
 
     li{
+        cursor: pointer;
+        padding: 10px;
         list-style: none;
         margin: 25px;
         font: 15px;

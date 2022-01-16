@@ -84,6 +84,10 @@ const Main = styled.main`
     @media (max-width: 500px){
         top: -500px;
     }
+
+    @media (max-width: 800px){
+        margin-top: 50vh;
+    }
 `
 
 const Grabber = styled.div`
