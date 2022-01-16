@@ -10,8 +10,9 @@ function Articles() {
             <Nav />
             <Content 
                 title='Python Basics'
-                date='1/13/22'
-                description='test'
+                date='1/16/22'
+                description='Learn the building blocks and fundamentals of python. In this lesson we will cover
+                Variables, built-in funcitons, data types, and how to use math.'
             />
             
         </Container>

@@ -9,6 +9,8 @@ import Projects from './Pages/Projects';
 import Social from './Pages/Social';
 import PythonBasics from './Lessons/PythonBasics';
 import PythonFunc from './Lessons/PythonFunc';
+import PythonBuiltIn from './Lessons/PythonBuiltIn';
+import PythonMath from './Lessons/PythonMath';
 
 
 function App() {
@@ -21,7 +23,10 @@ function App() {
         <Route path='/projects' element={<Projects />} />
         <Route path='/social' element={<Social />} />
         <Route path='/pythonBasics' element={<PythonBasics />} />
-        <Route path ='/functions' element={<PythonFunc />} />
+        <Route path ='/functions' element={<PythonFunc replace to='/functions'/>} />
+        <Route path='/printFunction' element={<PythonBuiltIn />}/>
+        <Route path='/pythonMath' element={<PythonMath />} />
+  
       </Routes>
     </Router>
     // <Container>

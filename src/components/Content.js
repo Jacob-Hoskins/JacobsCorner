@@ -21,6 +21,17 @@ export default Content
 
 const Container = styled.div`
     border: solid white 2px;
-    margin: 10px;
+    margin: 25px;
+    text-align: center;
+    
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
+
+    @media (max-width: 500px){
+        width: 80%;
+    }
 
 `

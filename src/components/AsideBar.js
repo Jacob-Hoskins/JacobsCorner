@@ -6,18 +6,15 @@ import { Link } from 'react-router-dom'
 function AsideBar(props) {
     return (
         <Container>
-            {/* <Sidebar>
+            <Sidebar>
                 <Nav>
-                    {for (const property in props.link_short){
-                        <Link='{props.link_short[property]}'><li>property</li></Link>
-                    }}
-
-                    {/* <li>Variables</li>
-                    <Link to='/functions'><li>Functions</li></Link>
-                    <li>Data Types</li>
-                    <li>Math</li> */}
-                {/* </Nav>
-            </Sidebar> */}
+                {Object.entries(props.link_short).map(([ text, link ]) => (
+                    <li>
+                        <Link to={link}>{ text }</Link>
+                    </li>
+                ))}
+                </Nav>
+            </Sidebar>
         </Container>
     )
 }
@@ -26,11 +23,18 @@ export default AsideBar
 
 
 const Container = styled.aside`
+    display: felx;
+    width: 5%;
+    margin: 0;
 
+    a{
+        text-decoration: none;
+        color: white;
+    }
 `
 
 const Nav = styled.div`
-    
+    margin: 0;
     padding: 10px;
 
     li{
@@ -46,4 +50,5 @@ const Sidebar = styled.aside`
     cursor: pointer;
     min-height: 100vh;
     width: 15%;
+    margin: 0;
 `

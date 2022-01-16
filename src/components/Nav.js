@@ -21,9 +21,12 @@ function Nav() {
  export default Nav
 
  const NavBar = styled.div`
+     position: relative;
+     width: 100vw;
      align-items: center;
      margin: 0;
      border-bottom: 2px solid black;
+     
      
      
 
@@ -48,11 +51,14 @@ function Nav() {
          color: white;
      }
 
-     @media (max-width: 500px){
+     @media (max-width: 700px){
          span{
-             font-size: 6px;
+             font-size: 10px;
              text-align: center;
+             align-items: center;
+             align-content: center;
              justify-content: center;
+             margin-right: -4px;
          }
      }
 
