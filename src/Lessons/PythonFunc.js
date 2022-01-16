@@ -53,9 +53,7 @@ function PythonFunc() {
                         <p>DoMath(5,7)</p>
                     </ExampleCode>
                 </Lesson>
-                <Next>
-                    <Link to='/printFunction'><span>Next</span></Link>
-                </Next>
+                
             </Main>
         </Container>
     )
@@ -119,23 +117,6 @@ const ExampleCode = styled.div`
     align-content: center;
     text-align: center;
     justify-content: center;
-`
-const Next = styled.div`
-    position: absolute;
-    top: 135vh;
-    left: 33vw;
-    cursor: pointer;
-    border: solid white 2px;
-    padding: 10px 30px;
-    width: 30px;
-    text-align: center;
-    margin: auto;
-    margin-top: 5px;
-
-    a{
-        text-decoration: none;
-        color: white;
-    }
 `
 
 
