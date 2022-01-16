@@ -122,8 +122,8 @@ const ExampleCode = styled.div`
 `
 const Next = styled.div`
     position: absolute;
-    top: 95vh;
-    left: 35vw;
+    top: 135vh;
+    left: 33vw;
     cursor: pointer;
     border: solid white 2px;
     padding: 10px 30px;
