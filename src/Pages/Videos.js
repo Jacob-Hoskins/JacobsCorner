@@ -14,7 +14,6 @@ function Videos() {
 export default Videos
 
 const Container = styled.div`
-    background-color: black;
     color: white;
     min-height: 100vh;
 `

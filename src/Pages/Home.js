@@ -19,7 +19,6 @@ export default Home
 
 const Container = styled.main`
     margin: auto;
-    background: black;
     color: white;
     min-height: 100vh;
 `

@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import AsideBar from '../components/AsideBar'
-import Nav from '../components/Nav'
+import AsideBar from '../../components/AsideBar'
+import Nav from '../../components/Nav'
 import { Link } from 'react-router-dom'
 
 function PythonMath() {
@@ -75,13 +75,15 @@ const Grabber = styled.div`
 
 const Lesson = styled.div`
     margin: auto;
-    background-color: rgb(17, 34, 64);
+    background-color: #7395ae;
     border-radius: 25px;
     align-self: center;
     text-align: center;
     justify-content: center;
     width: 75vh;
     font-size: 20px;
+    padding: 10px;
+
 
     @media (max-width: 500px){
         width: 80%;
@@ -92,7 +94,7 @@ const Lesson = styled.div`
 const ExampleCode = styled.div`
     margin: auto;
     border: solid black 2px;
-    background-color: grey;
+    background-color: #557a95;
     color: white;
     width: 50%;
     align-items: center;

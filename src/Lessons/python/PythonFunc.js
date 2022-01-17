@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
-import Nav from '../components/Nav'
-import AsideBar from '../components/AsideBar'
+import Nav from '../../components/Nav'
+import AsideBar from '../../components/AsideBar'
 
 function PythonFunc() {
     const links={'variables': "/pythonBasics", 'print()': '/printFunction','Math': '/pythonMath', 'Functions': "/functions"}
@@ -101,16 +101,18 @@ const Lesson = styled.div`
     text-align: center;
     margin: auto;
     padding: 5px;
-    background-color: rgb(17, 34, 64);
+    background-color: #7395ae;
     border-radius: 25px;
     content: 75vw;
+    padding: 10px;
+
     
 `
 
 const ExampleCode = styled.div`
     margin: auto;
     border: solid black 2px;
-    background-color: grey;
+    background-color: #557a95;
     color: white;
     width: 50%;
     align-items: center;

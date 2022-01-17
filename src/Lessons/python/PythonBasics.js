@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
-import Nav from '../components/Nav'
-import AsideBar from '../components/AsideBar'
+import Nav from '../../components/Nav'
+import AsideBar from '../../components/AsideBar'
 
 
 //TODO make the nav section in this component its own component where you can insert the links when called 
@@ -64,7 +64,6 @@ const Container = styled.div`
     display: flex;
     flex-direction: column;
     position: relative;
-    background-color: black;
     color: white;
     
        
@@ -119,8 +118,9 @@ const Sidebar = styled.aside`
 `
 
 const Lesson = styled.article`
+    padding: 10px;
     margin: auto;
-    background-color: rgb(17, 34, 64);
+    background-color: #7395ae;
     border-radius: 25px;
     align-self: center;
     text-align: center;
@@ -136,7 +136,7 @@ const Lesson = styled.article`
 const ExampleCode = styled.div`
     margin: auto;
     border: solid black 2px;
-    background-color: grey;
+    background-color: #557a95;
     color: white;
     width: 50%;
     align-items: center;

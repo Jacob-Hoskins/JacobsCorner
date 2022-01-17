@@ -21,6 +21,7 @@ function Nav() {
  export default Nav
 
  const NavBar = styled.div`
+     background-color: #b1a296;
      position: relative;
      width: 100vw;
      align-items: center;

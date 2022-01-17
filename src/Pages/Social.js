@@ -14,6 +14,5 @@ export default Social
 
 const Container = styled.div`
     min-height: 100vh;
-    background: black;
     color: white;
 `

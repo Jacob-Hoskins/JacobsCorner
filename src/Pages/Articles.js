@@ -8,7 +8,8 @@ function Articles() {
     return (
         <Container>
             <Nav />
-            <Content 
+            <Content
+                link='/pythonBasics'
                 title='Python Basics'
                 date='1/16/22'
                 description='Learn the building blocks and fundamentals of python. In this lesson we will cover
@@ -26,7 +27,6 @@ const Container = styled.div`
     align-items: center;
     border: solid black 2px;
     margin: auto;
-    background: black;
     color: white;
     
     

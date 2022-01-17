@@ -7,10 +7,11 @@ import Videos from './Pages/Videos';
 import Articles from './Pages/Articles';
 import Projects from './Pages/Projects';
 import Social from './Pages/Social';
-import PythonBasics from './Lessons/PythonBasics';
-import PythonFunc from './Lessons/PythonFunc';
-import PythonBuiltIn from './Lessons/PythonBuiltIn';
-import PythonMath from './Lessons/PythonMath';
+import PythonBasics from './Lessons/python/PythonBasics';
+import PythonFunc from './Lessons/python/PythonFunc';
+import PythonBuiltIn from './Lessons/python/PythonBuiltIn';
+import PythonMath from './Lessons/python/PythonMath';
+import DoMath from './Lessons/python/DoMath';
 
 
 function App() {
@@ -23,10 +24,11 @@ function App() {
         <Route path='/projects' element={<Projects />} />
         <Route path='/social' element={<Social />} />
         <Route path='/pythonBasics' element={<PythonBasics />} />
-        <Route path ='/functions' element={<PythonFunc replace to='/functions'/>} />
-        <Route path='/printFunction' element={<PythonBuiltIn />}/>
-        <Route path='/pythonMath' element={<PythonMath />} />
-  
+        <Route path ='functions' element={<PythonFunc replace to='/functions'/>} />
+        <Route path='printFunction' element={<PythonBuiltIn />}/>
+        <Route path='pythonMath' element={<PythonMath />} />
+        <Route path='pythonCalc' element={<DoMath />} />
+
       </Routes>
     </Router>
     // <Container>

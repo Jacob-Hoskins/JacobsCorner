@@ -7,8 +7,9 @@ import Content from './Content';
 function HomeArticles() {
     return (
         <Container>
-            <h2>latest Articles and Videos</h2>
-            <Content 
+            <h2>Latest Articles and Videos</h2>
+            <Content
+                link='/pythonBasics'
                 title='Python Basics'
                 date='1/16/22'
                 description='Learn the building blocks and fundamentals of python. In this lesson we will cover
