@@ -8,6 +8,15 @@ function HomeArticles() {
     return (
         <Container>
             <h2>Latest Articles and Videos</h2>
+
+            <Content 
+                link='/pyLoops'
+                title='Python loops'
+                date='1/17/2022'
+                description='Learn how to make python loop or repeat a certian task until you 
+                achieve the desired outcome'
+            />
+            
             <Content
                 link='/pythonBasics'
                 title='Python Basics'
@@ -15,6 +24,8 @@ function HomeArticles() {
                 description='Learn the building blocks and fundamentals of python. In this lesson we will cover
                 Variables, built-in funcitons, data types, and how to use math.'
             />
+
+            
             
         </Container>
     )

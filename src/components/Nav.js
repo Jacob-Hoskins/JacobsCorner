@@ -25,7 +25,6 @@ function Nav() {
      position: relative;
      width: 100vw;
      align-items: center;
-     margin: 0;
      border-bottom: 2px solid black;
      
      
@@ -38,6 +37,7 @@ function Nav() {
      padding-bottom: 10px;
      text-align: center;
      text-decoration: none;
+
      
      
      

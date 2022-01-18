@@ -12,7 +12,7 @@ import PythonFunc from './Lessons/python/PythonFunc';
 import PythonBuiltIn from './Lessons/python/PythonBuiltIn';
 import PythonMath from './Lessons/python/PythonMath';
 import DoMath from './Lessons/python/DoMath';
-
+import Loops from './Lessons/python/Loops';
 
 function App() {
   return (
@@ -28,7 +28,7 @@ function App() {
         <Route path='printFunction' element={<PythonBuiltIn />}/>
         <Route path='pythonMath' element={<PythonMath />} />
         <Route path='pythonCalc' element={<DoMath />} />
-
+        <Route path='pyLoops' element={<Loops />} />
       </Routes>
     </Router>
     // <Container>

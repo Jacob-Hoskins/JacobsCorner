@@ -4,7 +4,7 @@ body {
   padding: 0;
   overflow-x: hidden;
   font-family: Georgia, serif;
-
+  overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

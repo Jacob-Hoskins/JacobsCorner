@@ -8,6 +8,14 @@ function Articles() {
     return (
         <Container>
             <Nav />
+            <Content 
+                link='/pyLoops'
+                title='Python loops'
+                date='1/17/2022'
+                description='Learn how to make python loop or repeat a certian task until you 
+                achieve the desired outcome'
+            />
+
             <Content
                 link='/pythonBasics'
                 title='Python Basics'
