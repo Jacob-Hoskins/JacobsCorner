@@ -11,7 +11,6 @@ import PythonBasics from './Lessons/python/PythonBasics';
 import PythonFunc from './Lessons/python/PythonFunc';
 import PythonBuiltIn from './Lessons/python/PythonBuiltIn';
 import PythonMath from './Lessons/python/PythonMath';
-import DoMath from './Lessons/python/DoMath';
 import Loops from './Lessons/python/Loops';
 import IfState from './Lessons/python/IfState';
 
@@ -28,7 +27,6 @@ function App() {
         <Route path ='functions' element={<PythonFunc replace to='/functions'/>} />
         <Route path='printFunction' element={<PythonBuiltIn />}/>
         <Route path='pythonMath' element={<PythonMath />} />
-        <Route path='pythonCalc' element={<DoMath />} />
         <Route path='pyLoops' element={<Loops />} />
         <Route path='ifStatements' element={<IfState/>} />
       </Routes>
