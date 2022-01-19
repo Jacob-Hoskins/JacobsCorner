@@ -24,6 +24,9 @@ function VideoSlider() {
             <Wrap>
                 <Link to='/pyLoops'><img src='../Pictures/Loops.jpg' alt='' /></Link>
             </Wrap>
+            <Wrap>
+                <Link to='/ifStatements'><img src='../Pictures/IfElse.jpg' alt='' /></Link>
+            </Wrap>
         </Carousel>
     )
 }
