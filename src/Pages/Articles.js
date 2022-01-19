@@ -9,6 +9,14 @@ function Articles() {
         <Container>
             <Nav />
             <Content 
+                link='/ifStatements'
+                title='If Else Statements'
+                date='1/19/2022'
+                description='Learn what a if else statement is and how to use them inside of 
+                your code!'
+            />
+
+            <Content 
                 link='/pyLoops'
                 title='Python loops'
                 date='1/17/2022'

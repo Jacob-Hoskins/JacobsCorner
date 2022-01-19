@@ -13,6 +13,7 @@ import PythonBuiltIn from './Lessons/python/PythonBuiltIn';
 import PythonMath from './Lessons/python/PythonMath';
 import DoMath from './Lessons/python/DoMath';
 import Loops from './Lessons/python/Loops';
+import IfState from './Lessons/python/IfState';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path='pythonMath' element={<PythonMath />} />
         <Route path='pythonCalc' element={<DoMath />} />
         <Route path='pyLoops' element={<Loops />} />
+        <Route path='ifStatements' element={<IfState/>} />
       </Routes>
     </Router>
     // <Container>
