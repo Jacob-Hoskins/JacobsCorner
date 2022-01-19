@@ -2,3 +2,5 @@
     from ='/*'
     to='index.html'
     status=200
+
+#the page would give a 404 not found error withgout this.
