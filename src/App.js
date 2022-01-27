@@ -14,7 +14,7 @@ import PythonBuiltIn from './Lessons/python/PythonBuiltIn';
 import PythonMath from './Lessons/python/PythonMath';
 import Loops from './Lessons/python/Loops';
 import IfState from './Lessons/python/IfState';
-import PyBasicsVid from './Lessons/python/Videos/PyBasicsVid';
+import PyBasicsVid from './components/PyBasicsVid';
 
 function App() {
   return (
@@ -31,7 +31,8 @@ function App() {
         <Route path='/pythonMath' element={<PythonMath />} />
         <Route path='/pyLoops' element={<Loops />} />
         <Route path='/ifStatements' element={<IfState/>} />
-        <Route path='/pythonBasicsVideo' element={<PyBasicsVid />} />
+        <Route path='/pythonBasicsVideo' element={<PyBasicsVid vidLink='https://www.youtube.com/embed/E3dZvpkX3Y0'/>} />
+        <Route path='/pythonCalcVid' element={<PyBasicsVid vidLink="https://www.youtube.com/embed/Y3GsWxjECX8" />} />
       </Routes>
     </Router>
     // <Container>
