@@ -8,7 +8,7 @@ function Nav() {
         <NavBar>
             <NavMenu>
                  <Link to='/'><span>HOME</span></Link>
-                 {/* <Link to="/videos"><span>VIDEOS</span></Link> */}
+                 <Link to="/videos"><span>VIDEOS</span></Link>
                  <Link to='/articles'><span>ARTICLES</span></Link>
                  <Link to='/projects'><span>PROJECTS</span></Link>
                  <Link to='/social'><span>SOCIAL</span></Link>

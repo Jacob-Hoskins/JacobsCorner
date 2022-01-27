@@ -7,29 +7,31 @@ import Home from './Pages/Home';
 import Articles from './Pages/Articles';
 import Projects from './Pages/Projects';
 import Social from './Pages/Social';
+import Videos from './Pages/Videos';
 import PythonBasics from './Lessons/python/PythonBasics';
 import PythonFunc from './Lessons/python/PythonFunc';
 import PythonBuiltIn from './Lessons/python/PythonBuiltIn';
 import PythonMath from './Lessons/python/PythonMath';
 import Loops from './Lessons/python/Loops';
 import IfState from './Lessons/python/IfState';
+import PyBasicsVid from './Lessons/python/Videos/PyBasicsVid';
 
 function App() {
   return (
     <Router>
       <Routes>
         <Route path='/' element={<Home />} />
-        {/* <Route path='/videos' element={<Videos />} /> */}
+        <Route path='/videos' element={<Videos />} />
         <Route path='/articles' element={<Articles />} />
         <Route path='/projects' element={<Projects />} />
         <Route path='/social' element={<Social />} />
         <Route path='/pythonBasics' element={<PythonBasics />} />
-        <Route path ='functions' element={<PythonFunc replace to='/functions'/>} />
-        <Route path='printFunction' element={<PythonBuiltIn />}/>
-        <Route path='pythonMath' element={<PythonMath />} />
-        <Route path='pyLoops' element={<Loops />} />
-        <Route path='ifStatements' element={<IfState/>} />
-        {/* <Route path='/pythonBasicsVideo' element={<VideoPythonBasics />} /> */}
+        <Route path ='/functions' element={<PythonFunc replace to='/functions'/>} />
+        <Route path='/printFunction' element={<PythonBuiltIn />}/>
+        <Route path='/pythonMath' element={<PythonMath />} />
+        <Route path='/pyLoops' element={<Loops />} />
+        <Route path='/ifStatements' element={<IfState/>} />
+        <Route path='/pythonBasicsVideo' element={<PyBasicsVid />} />
       </Routes>
     </Router>
     // <Container>
