@@ -61,6 +61,7 @@ function PythonBasics() {
 export default PythonBasics
 
 const Container = styled.div`
+    font-size: 20px;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -125,7 +126,7 @@ const Lesson = styled.article`
     align-self: center;
     text-align: center;
     width: 75vh;
-    font-size: 20px;
+    font-size: 25px;
 
     @media (max-width: 500px){
         width: 80%;

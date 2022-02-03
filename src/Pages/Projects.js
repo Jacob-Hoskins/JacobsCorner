@@ -20,7 +20,8 @@ function Projects() {
 
 export default Projects
 
-const Container = styled.div`
+const Container = styled.main`
+    font-size: 20px;
     color: white;
     min-height: 100vh;
 `

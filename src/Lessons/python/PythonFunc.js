@@ -62,6 +62,7 @@ function PythonFunc() {
 export default PythonFunc
 
 const Container = styled.div`
+    font-size: 20px;
     align-items: center;
     margin-left: 5px;
     height: 100vh;
@@ -95,7 +96,7 @@ const Grabber = styled.div`
 const Lesson = styled.div`
     position: absolute;
     display: block;
-    font-size: 18px;
+    font-size: 25px;
     width: 75vw;
     color: white;
     text-align: center;

@@ -50,6 +50,7 @@ function IfState() {
 export default IfState
 
 const Container = styled.div`
+    font-size: 20px;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -61,7 +62,7 @@ const Container = styled.div`
 const Lesson = styled.main`
     position: relative;
     display: block;
-    font-size: 18px;
+    font-size: 20px;
     width: 75vw;
     color: white;
     text-align: center;

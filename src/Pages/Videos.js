@@ -28,6 +28,7 @@ function Videos() {
 export default Videos
 
 const Container = styled.div`
+    font-size: 20px;
     color: white;
     min-height: 100vh;
 `

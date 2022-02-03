@@ -62,6 +62,7 @@ function loops() {
 export default loops
 
 const Container = styled.div`
+    font-size: 20px;
     color: white;
     margin-bottom: 50px;
 `
@@ -77,7 +78,7 @@ const Grabber = styled.div `
 const Lesson = styled.main`
     position: relative;
     display: block;
-    font-size: 18px;
+    font-size: 20px;
     width: 75vw;
     color: white;
     text-align: center;

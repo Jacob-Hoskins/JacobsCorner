@@ -20,6 +20,7 @@ function Home() {
 export default Home
 
 const Container = styled.main`
+    font-size: 20px;
     margin: auto;
     color: white;
     min-height: 100vh;

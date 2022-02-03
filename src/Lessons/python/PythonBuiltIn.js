@@ -49,6 +49,7 @@ function PythonBuiltIn() {
 export default PythonBuiltIn
 
 const Container = styled.div`
+    font-size: 20px;
     color: white;
 `
 const Main = styled.main`
@@ -81,7 +82,7 @@ const Lesson = styled.div`
     text-align: center;
     justify-content: center;
     width: 75vh;
-    font-size: 20px;
+    font-size: 25px;
     padding: 10px;
 
 

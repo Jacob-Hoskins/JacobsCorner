@@ -39,6 +39,7 @@ function Articles() {
 export default Articles
 
 const Container = styled.div`
+    font-size: 20px;
     min-height: 100vh;
     align-items: center;
     border: solid black 2px;
