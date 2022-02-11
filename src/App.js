@@ -33,6 +33,8 @@ function App() {
         <Route path='/ifStatements' element={<IfState/>} />
         <Route path='/pythonBasicsVideo' element={<PyBasicsVid vidLink='https://www.youtube.com/embed/E3dZvpkX3Y0'/>} />
         <Route path='/pythonCalcVid' element={<PyBasicsVid vidLink="https://www.youtube.com/embed/Y3GsWxjECX8" />} />
+        <Route path='/FrontEndCrashCourse' element={<PyBasicsVid vidLink="https://www.youtube.com/embed/Uhn6inUq03o"/>} />
+        <Route path='/PythonDirectory' element={<PyBasicsVid vidLink="https://www.youtube.com/embed/1fxM8IPFxd4"/>} />
       </Routes>
     </Router>
     // <Container>
