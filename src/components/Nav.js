@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
+import { FaBars } from "react-icons/fa";
 
 
 function Nav() {
@@ -26,21 +27,16 @@ function Nav() {
      width: 100vw;
      align-items: center;
      border-bottom: 2px solid black;
-     
-     
-     
 
  `
+
+
 
  const NavMenu = styled.div`
      cursor: pointer;
      padding-bottom: 10px;
      text-align: center;
      text-decoration: none;
-
-     
-     
-     
 
      a{
          margin: 25px;
